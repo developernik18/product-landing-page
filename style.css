@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(40,10,80);
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+#brand-logo{
+  width: 140px;
+}
