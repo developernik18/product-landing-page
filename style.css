@@ -6,14 +6,40 @@
 
 body {
   background: rgb(40,10,80);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
 }
 
 #header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0px 40px;
 }
 
 #brand-logo{
   width: 140px;
+}
+
+#nav-bar{
+  display: flex;
+  align-items: center;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#menu li{
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+#menu li a{
+  color: #fff;
+  text-decoration: none;
 }
